@@ -1,8 +1,6 @@
-package main
+package example
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func move(num int, from int, to int) {
 	fmt.Println("원반 ", num, " : ", from, "번 기둥 -> ", to, "번 기둥")
